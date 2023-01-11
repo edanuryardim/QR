@@ -7,7 +7,7 @@ code = qrcode.QRCode(
     border=10
 )
 
-code.add_data("https://www.youtube.com/watch?v=itXBQ5I4N-A&t=47s")
+code.add_data("https://www.linkedin.com/in/eda-nur-yardım-9a474a202/")
 code.make(fit=True)
 
 image = code.make_image(fill_color="white",back_color="black")
